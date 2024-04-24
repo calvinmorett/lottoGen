@@ -1,4 +1,5 @@
 ![](/app.png)
+![image](https://github.com/calvinmorett/lottoGen/assets/11654917/85e41e41-719e-4425-9fba-3f855114a001)
 
 # lotto numbers
 
