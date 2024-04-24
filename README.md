@@ -7,6 +7,8 @@
 1. install python version 3.6+
 2. install libraries w/ `$ pip install -r requirements.txt`
 3. run python file, i.e. `flask run`
+4. direct browser to localhost or ip set by flask
+5. in the input set the max amount of random numbers to generate 
 
 * If you have any issues please let me know and I will help.
 
