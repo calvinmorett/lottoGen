@@ -1,0 +1,38 @@
+<html>
+  <head>
+        <title>{{ title }}</title>
+      </head>
+      <style>
+        html,body{
+          margin:100px;
+          background:#111;
+          color:#fff;
+          font-family:Arial, Helvetica, sans-serif;
+        }
+      </style>
+
+  </head>
+  <body>
+
+    <form action="/" method="POST">
+      <input type="text" name="input">
+      <input type="submit" value="Run script">
+    </form>
+    
+      <body>
+        {% if output %}
+          <p>Your winning Lottery Numbers are: {{ output }}</p>
+        {% endif %}
+      </body>
+<!--       
+    <div id="output"></div>
+    
+    <script>
+      var source = new EventSource("/");
+      source.onmessage = function(event) {
+        document.getElementById("output").innerHTML += event.data + "<br>";
+      };
+    </script> -->
+
+</html>
+
